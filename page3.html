@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVV5HW9');</script>
+<!-- End Google Tag Manager -->
+  
+  <title>Page 3</title>
+  <script>
+    window.onload = function () {
+      var url = location.href;
+      var url_extract = url.split('=');
+      var iamge_name = url_extract[1];
+      document.getElementById('imageBox').src = iamge_name;
+      console.log("this is url ",url);
+      console.log("this is image name ",iamge_name);
+    }
+  </script>
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVV5HW9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <form name="form1" action="next.html" method="get">
+    <table align="center">
+     <th>
+      <h1>Thank You!</h1>
+    </th>
+    <tr>
+      <td><img id="imageBox"></td>
+    </tr>
+  </table>
+</form>
+<br>
+	<a href="http://localhost/Eshopper/">Go to E-Shopper website</a>
+</body>
+</html>

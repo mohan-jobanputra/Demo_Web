@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVV5HW9');</script>
+<!-- End Google Tag Manager -->
+	<title>Page 2</title>
+	<script>
+		function validate(){
+			var image_name=document.form2.image.value;
+			console.log(image_name)
+			if(image_name == ""){
+				image_error.innerHTML="&emsp; Please select an image!";
+				return false;
+
+			}
+			else
+				return true;
+		}
+	</script>
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVV5HW9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<form name="form2" action="page3.html" method="get" onsubmit="return validate()">
+		Please choose one image - <span id="image_error" style="color: red"> *</span><br><br>
+		<table>
+			<tr align="center">
+				<td><input type="radio" name="image" value="a.jpg" id="image">&emsp;Image 1</td>
+				<td><input type="radio" name="image" value="b.jpg" id="image">&emsp;Image 2</td>
+				<td><input type="radio" name="image" value="c.jpg" id="image">&emsp;Image 3</td>
+				<td><input type="radio" name="image" value="d.jpg" id="image">&emsp;Image 4</td>
+				<td><input type="radio" name="image" value="e.jpg" id="image">&emsp;Image 5</td>
+			</tr>
+			<tr>
+				<td><img src="a.jpg"></td>
+				<td><img src="b.jpg"></td>
+				<td><img src="c.jpg"></td>
+				<td><img src="d.jpg"></td>
+				<td><img src="e.jpg"></td>
+			</tr>
+		</table>
+		<br><br><input type="submit" value="Next">
+	</form>
+	<br>
+	<a href="http://localhost/Eshopper/">Go to E-Shopper website</a>
+
+</body>
+</html>
+
+
+
+
+<!-- file:///Users/mJ/Desktop/Convonix_assignments/Assignment%201/Page2-3/testing.html -->
